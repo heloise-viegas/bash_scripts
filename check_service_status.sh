@@ -7,4 +7,3 @@ else
         echo "Restarting service..."
         systemctl restart ${service_name}
 fi
-~      
