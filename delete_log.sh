@@ -8,5 +8,5 @@ echo "Deleteing file.."
 while read -r filename;do
         rm ${filename}
 done < filelist.txt
-rm ${filelist.txt}:wq
+rm ${filelist.txt}
 
